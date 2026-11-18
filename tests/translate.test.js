@@ -33,3 +33,13 @@ test('Tradução indisponível é sinalizada, sem criar manchete fictícia',asyn
   assert.equal(output.articles[0].title,a.title);
   assert.equal(output.articles[0].translationStatus,'indisponivel');
 });
+
+test('Se a primeira tradução alterar um número, tenta alternativa sem aceitar valores adulterados',async()=>{
+  let calls=[];
+  const a={source:'Cointelegraph',title:'Bitcoin at $64,100',summary:''};
+  const f=async url=>{const q=new URL(url),lang=q.searchParams.get('langpair');calls.push(lang);return {ok:true,json:async()=>({responseStatus:200,responseData:{translatedText:lang==='en|pt-BR'?'Bitcoin a US$ 60.100':'Bitcoin a US$ 64.100'}})};};
+  const v=await translateArticles([a],{entries:{}},{fetchImpl:f,budget:1000});
+  assert.equal(v.articles[0].title,'Bitcoin a US$ 64.100');
+  assert.deepEqual(calls,['en|pt-BR','en|pt']);
+  assert.equal(v.articles[0].translationStatus,'automatica');
+});
