@@ -1,76 +1,87 @@
 {
   "editionDate": "2026-11-18",
-  "generatedAt": "2026-11-18T11:59:07.267Z",
+  "generatedAt": "2026-11-18T12:33:33.623Z",
   "windowHours": 36,
   "count": 10,
-  "totalCandidates": 217,
-  "errors": [],
+  "totalCandidates": 212,
+  "errors": [
+    "Tecnoblog / IA"
+  ],
   "articles": [
     {
       "id": "ruthlesszverevthroughtoatpfinalsknockoutstage",
-      "title": "Ruthless Zverev through to ATP Finals knockout stage",
+      "title": "Zverev implacável avança para a fase eliminatória das ATP Finals",
       "category": "Tênis",
-      "summary": "World number one Alexander Zverev produces a serving masterclass to defeat Ben Shelton and qualify for the ATP Finals knockout stage with a match to spare.",
+      "summary": "O número um do mundo, Alexander Zverev, dá uma aula de saque para derrotar Ben Shelton e se classificar para a fase eliminatória do ATP Finals com uma partida de sobra.",
       "why": "Atualiza resultados e momentos decisivos do circuito profissional de tênis.",
       "url": "https://www.bbc.co.uk/sport/tennis/articles/c6x2eveyyxp0o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Sport",
       "published": "2026-11-17T22:30:24.000Z",
-      "priority": 3
+      "priority": 3,
+      "originalTitle": "Ruthless Zverev through to ATP Finals knockout stage",
+      "originalSummary": "World number one Alexander Zverev produces a serving masterclass to defeat Ben Shelton and qualify for the ATP Finals knockout stage with a match to spare.",
+      "language": "pt-BR",
+      "translationStatus": "automatica"
     },
     {
       "id": "bitcoindropsasnvidiaearningsreportdrivesstockindexfutureshigher",
-      "title": "Bitcoin drops as Nvidia earnings report drives stock index futures higher",
+      "title": "O Bitcoin cai à medida que o relatório de resultados da Nvidia faz com que os futuros do índice de ações subam",
       "category": "Bitcoin",
-      "summary": "Bitcoin (BTC) is down 1.1% since midnight UTC at around $64,100, failing to keep pace with rising stock index futures after Nvidia beat earnings.",
+      "summary": "O Bitcoin (BTC) caiu 1,1% desde a meia-noite UTC, ficando em torno de US$ 64.100, não conseguindo acompanhar o ritmo dos futuros de índices de ações em alta após a Nvidia ter superado as expectativas de lucro.",
       "why": "É relevante para liquidez, volatilidade e gestão da exposição a criptoativos.",
       "url": "https://www.coindesk.com/markets/2026/11/18/bitcoin-drops-as-nvidia-earnings-report-drives-stock-index-futures-higher",
       "source": "CoinDesk",
       "published": "2026-11-18T11:42:52.000Z",
-      "priority": 3
+      "priority": 3,
+      "originalTitle": "Bitcoin drops as Nvidia earnings report drives stock index futures higher",
+      "originalSummary": "Bitcoin (BTC) is down 1.1% since midnight UTC at around $64,100, failing to keep pace with rising stock index futures after Nvidia beat earnings.",
+      "language": "pt-BR",
+      "translationStatus": "automatica"
     },
     {
       "id": "bitcoinsteadiesafternvidiasearningsbeatas60kbidsstandout",
-      "title": "Bitcoin steadies after Nvidia’s earnings beat as $60K bids stand out",
+      "title": "O Bitcoin se estabiliza após os resultados financeiros da Nvidia superarem as expectativas, com as ofertas de US$ 60 mil se destacando",
       "category": "Bitcoin",
       "summary": "Bitcoin halted downside as Nvidia confidence returned, with its stock gaining 3% premarket and South Korea’s tech-heavy KOSPI reclaiming 5,000 points.",
       "why": "É relevante para liquidez, volatilidade e gestão da exposição a criptoativos.",
       "url": "https://cointelegraph.com/markets/bitcoin-60k-liquidity-stocks-gain-nvidia-1158b-earnings-beat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published": "2026-11-18T10:31:20.000Z",
-      "priority": 3
+      "priority": 3,
+      "originalTitle": "Bitcoin steadies after Nvidia’s earnings beat as $60K bids stand out",
+      "originalSummary": "Bitcoin halted downside as Nvidia confidence returned, with its stock gaining 3% premarket and South Korea’s tech-heavy KOSPI reclaiming 5,000 points.",
+      "language": "pt-BR",
+      "translationStatus": "parcial"
+    },
+    {
+      "id": "liveupdatesbitcoinlowerevenasnasdaqrisesonnvidiarelief",
+      "title": "Atualizações em tempo real: Bitcoin cai mesmo com a alta do Nasdaq após alívio da Nvidia",
+      "category": "Bitcoin",
+      "summary": "O XRP se aproximou de US$ 1, e o SOL subiu 3%, enquanto um relatório da Talos mostrou que o carry trade preferido das criptomoedas agora rende aproximadamente o mesmo que os títulos do Tesouro dos EUA.",
+      "why": "É relevante para liquidez, volatilidade e gestão da exposição a criptoativos.",
+      "url": "https://www.coindesk.com/business/2026/11/18/live-updates-bitcoin-stuck-near-usd65-000-as-popular-basis-trade-returns-dry-up",
+      "source": "CoinDesk",
+      "published": "2026-11-18T07:27:48.000Z",
+      "priority": 3,
+      "originalTitle": "Live updates: Bitcoin lower even as Nasdaq rises on Nvidia relief",
+      "originalSummary": "XRP edged toward $1, and SOL rose 3%, while a Talos report showed crypto’s favorite carry trade now pays about the same as U.S. Treasuries.",
+      "language": "pt-BR",
+      "translationStatus": "automatica"
     },
     {
       "id": "nvidiaboardrejectshuangcomebackdespiterecord116bquarter",
-      "title": "Nvidia board rejects Huang comeback despite record $116B quarter",
+      "title": "O conselho da Nvidia rejeita o retorno de Huang, apesar do trimestre recorde de US$ 116 bilhões",
       "category": "Bitcoin",
-      "summary": "Nvidia beat Wall Street’s revenue expectations by 5.6% and issued a stronger-than-expected sales forecast, while its board resisted growing calls for Jensen Huang’s reinstatement.",
+      "summary": "A Nvidia superou as expectativas de receita de Wall Street em 5,6% e divulgou uma previsão de vendas mais forte do que o esperado, enquanto seu conselho resistiu às crescentes demandas pela reintegração de Jensen Huang.",
       "why": "Pode influenciar custos, oferta de infraestrutura e a competição em IA.",
       "url": "https://cointelegraph.com/markets/nvidia-board-rejects-huang-comeback-amid-record-116b-quarter?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published": "2026-11-18T00:16:43.000Z",
-      "priority": 3
-    },
-    {
-      "id": "nvidiasharesriseonearningsbeatraisedoutlookdespiteleadershipuncertainty",
-      "title": "Nvidia shares rise on earnings beat, raised outlook despite leadership uncertainty",
-      "category": "Bitcoin",
-      "summary": "Speaking on the earnings call, Chairman Harvey Jones said the board has no intention of reinstating Jensen Huang as CEO.",
-      "why": "Pode influenciar custos, oferta de infraestrutura e a competição em IA.",
-      "url": "https://www.coindesk.com/markets/2026/11/17/nvidia-tops-estimates-issues-strong-guidance-adds-usd150-billion-to-buyback-authorization",
-      "source": "CoinDesk",
-      "published": "2026-11-17T21:25:50.000Z",
-      "priority": 3
-    },
-    {
-      "id": "nvidiaapresentasupercomputadordemesacom512gbderam",
-      "title": "Nvidia apresenta supercomputador de mesa com 512 GB de RAM",
-      "category": "IA",
-      "summary": "DGX Spark HPC Developer Kit conecta quatro unidades do DGX Spark e é voltado a aplicações de IA e computação científica. Nvidia apresenta supercomputador de mesa com 512 GB de RAM",
-      "why": "Pode influenciar custos, oferta de infraestrutura e a competição em IA.",
-      "url": "https://tecnoblog.net/noticias/nvidia-apresenta-supercomputador-de-mesa-com-512-gb-de-memoria-ram/",
-      "source": "Tecnoblog",
-      "published": "2026-11-17T19:08:58.000Z",
-      "priority": 3
+      "priority": 3,
+      "originalTitle": "Nvidia board rejects Huang comeback despite record $116B quarter",
+      "originalSummary": "Nvidia beat Wall Street’s revenue expectations by 5.6% and issued a stronger-than-expected sales forecast, while its board resisted growing calls for Jensen Huang’s reinstatement.",
+      "language": "pt-BR",
+      "translationStatus": "automatica"
     },
     {
       "id": "custobrasileder35trilhoesporano275dopibestimanovoestudovejaoquepesamais",
@@ -81,18 +92,9 @@
       "url": "https://www.estadao.com.br/economia/custo-brasil-e-de-r-35-trilhoes-por-ano-275-do-pib-estima-novo-estudo-veja-o-que-pesa-mais/",
       "source": "Estadão Economia",
       "published": "2026-11-18T03:01:00.000Z",
-      "priority": 3
-    },
-    {
-      "id": "axiasimparunifiqueiguatemiemaisacoesparaacompanharnestaquartafeira",
-      "title": "Axia, Simpar, Unifique, Iguatemi e mais ações para acompanhar nesta quarta-feira",
-      "category": "Bancos",
-      "summary": "Painéis eletrônicos na B3, em São Paulo &#8211; 10/07/2025 (Foto: REUTERS/Alexandre Meneghini) \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2025/09/Captura-de-tela-2025-09-17-115206-e1770668490299.png?fit=895%2C497&quality=70&strip=all\"…",
-      "why": "É relevante para a atividade econômica e as decisões de investimento.",
-      "url": "https://www.infomoney.com.br/mercados/axia-simpar-unifique-iguatemi-e-mais-acoes-para-acompanhar-nesta-quarta-feira/",
-      "source": "InfoMoney",
-      "published": "2026-11-18T11:26:39.000Z",
-      "priority": 3
+      "priority": 3,
+      "language": "pt-BR",
+      "translationStatus": "original"
     },
     {
       "id": "duriganpreveimpactoinicialdareformatributariasobreinflacao",
@@ -103,7 +105,9 @@
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/durigan-preve-impacto-inicial-da-reforma-tributaria-sobre-inflacao",
       "source": "Agência Brasil",
       "published": "2026-11-17T18:56:00.000Z",
-      "priority": 4
+      "priority": 4,
+      "language": "pt-BR",
+      "translationStatus": "original"
     },
     {
       "id": "jurosaltosdividacreditoporqueacrisedasempresaspodeseagravarem2027",
@@ -114,9 +118,43 @@
       "url": "https://www.estadao.com.br/economia/juros-altos-divida-credito-por-que-a-crise-das-empresas-pode-se-agravar-em-2027/",
       "source": "Estadão Economia",
       "published": "2026-11-18T08:30:00.000Z",
-      "priority": 3
+      "priority": 3,
+      "language": "pt-BR",
+      "translationStatus": "original"
+    },
+    {
+      "id": "durigandefendealiquotadareformaeestimamediaefetivade85",
+      "title": "Durigan defende alíquota da reforma e estima média efetiva de 8,5%",
+      "category": "Bancos",
+      "summary": "O ministro da Fazenda, Dario Durigan, afirmou que a reforma tributária trará ganhos permanentes de responsabilidade fiscal, justiça social e transparência ao sistema tributário brasileiro. Ao defender o modelo aprovado, o ministro reiterou que a alíquota…",
+      "why": "Ajuda a acompanhar rentabilidade bancária, crédito e riscos operacionais.",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/durigan-defende-aliquota-da-reforma-e-estima-media-efetiva-de-85",
+      "source": "Agência Brasil",
+      "published": "2026-11-17T17:26:00.000Z",
+      "priority": 4,
+      "language": "pt-BR",
+      "translationStatus": "original"
+    },
+    {
+      "id": "nikolasameacadeixarplsepartidoapoiarreeleicaodehugomotta",
+      "title": "Nikolas ameaça deixar PL se partido apoiar reeleição de Hugo Motta",
+      "category": "Economia",
+      "summary": "Deputado Nikolas Ferreira (PL-MG). Foto: Marcos Oliveira/Agência Senado \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/02/53006661635_7e803ecf71_c.jpg?fit=800%2C533&quality=70&strip=all\" />Deputado critica aproximação do presidente…",
+      "why": "É relevante para a atividade econômica e as decisões de investimento.",
+      "url": "https://www.infomoney.com.br/politica/nikolas-ameaca-deixar-pl-se-partido-apoiar-reeleicao-de-hugo-motta/",
+      "source": "InfoMoney",
+      "published": "2026-11-18T12:24:17.000Z",
+      "priority": 3,
+      "language": "pt-BR",
+      "translationStatus": "original"
     }
   ],
   "integrity": "rss-automatizado",
-  "notice": "Títulos e trechos extraídos de RSS de fontes identificadas; importância editorial estimada automaticamente."
+  "translation": {
+    "translated": 4,
+    "failures": 1,
+    "cacheHits": 0,
+    "consumed": 1100
+  },
+  "notice": "Notícias extraídas de feeds RSS. Textos internacionais traduzidos automaticamente para português quando disponível; consulte sempre a fonte original."
 }
