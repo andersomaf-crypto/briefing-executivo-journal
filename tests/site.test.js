@@ -41,3 +41,14 @@ test('Rotina agenda coleta em horário de Brasília e publica pelo Pages', () =>
   assert.match(workflow, /actions\/configure-pages/);
   assert.match(workflow, /actions\/deploy-pages/);
 });
+
+test('Selic nunca exibe uma observação com data futura', () => {
+  const {validSelic}=require('../lib/markets');
+  const sample=[{data:'09/12/2026',valor:'99,99'},
+                {data:'04/11/2026',valor:'13,75'},
+                {data:'03/11/2026',valor:'13,75'}];
+  const result=validSelic(sample,'2026-11-18');
+  assert.equal(result.value,13.75);
+  assert.match(result.date,/^2026-11-04/);
+  assert.throws(()=>validSelic([{data:'09/12/2026',valor:'99,99'}],'2026-11-18'));
+});
