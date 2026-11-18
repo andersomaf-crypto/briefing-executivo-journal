@@ -1,6 +1,6 @@
 {
   "editionDate": "2026-11-18",
-  "generatedAt": "2026-11-18T12:33:33.623Z",
+  "generatedAt": "2026-11-18T12:36:51.236Z",
   "windowHours": 36,
   "count": 10,
   "totalCandidates": 212,
@@ -42,7 +42,7 @@
       "id": "bitcoinsteadiesafternvidiasearningsbeatas60kbidsstandout",
       "title": "O Bitcoin se estabiliza após os resultados financeiros da Nvidia superarem as expectativas, com as ofertas de US$ 60 mil se destacando",
       "category": "Bitcoin",
-      "summary": "Bitcoin halted downside as Nvidia confidence returned, with its stock gaining 3% premarket and South Korea’s tech-heavy KOSPI reclaiming 5,000 points.",
+      "summary": "O Bitcoin interrompeu sua queda à medida que a confiança na Nvidia retornou, com suas ações subindo 3% no pré-mercado e o KOSPI, índice sul-coreano com forte presença de empresas de tecnologia, recuperando 5.000 pontos.",
       "why": "É relevante para liquidez, volatilidade e gestão da exposição a criptoativos.",
       "url": "https://cointelegraph.com/markets/bitcoin-60k-liquidity-stocks-gain-nvidia-1158b-earnings-beat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
@@ -51,7 +51,7 @@
       "originalTitle": "Bitcoin steadies after Nvidia’s earnings beat as $60K bids stand out",
       "originalSummary": "Bitcoin halted downside as Nvidia confidence returned, with its stock gaining 3% premarket and South Korea’s tech-heavy KOSPI reclaiming 5,000 points.",
       "language": "pt-BR",
-      "translationStatus": "parcial"
+      "translationStatus": "automatica"
     },
     {
       "id": "liveupdatesbitcoinlowerevenasnasdaqrisesonnvidiarelief",
@@ -151,10 +151,10 @@
   ],
   "integrity": "rss-automatizado",
   "translation": {
-    "translated": 4,
-    "failures": 1,
-    "cacheHits": 0,
-    "consumed": 1100
+    "translated": 5,
+    "failures": 0,
+    "cacheHits": 9,
+    "consumed": 152
   },
   "notice": "Notícias extraídas de feeds RSS. Textos internacionais traduzidos automaticamente para português quando disponível; consulte sempre a fonte original."
 }
