@@ -6,13 +6,13 @@ Jornal digital brasileiro, pensado para iPhone e iPad: quatro indicadores de mer
 
 - **Desenvolvido e validado localmente:** layout responsivo, filtros, busca, artigos expansíveis, favoritos, consulta de fonte, exportação JSON, PWA e indicadores com origem/data.
 - **Integração contínua preparada:** arquivo `.github/workflows/jornal-diario.yml` consulta feeds RSS todos os dias às 07h30 (horário de Brasília, sujeito aos atrasos de fila do GitHub Actions), arquiva as edições e publica via GitHub Pages.
-- **Publicação em preparação:** código enviado para o repositório. O repositório está privado; no GitHub Free, para publicar via Pages, altere a visibilidade para público, ou utilize um plano com Pages para repositórios privados. Configure Pages como GitHub Actions.
+- **Ainda não publicado:** GitHub conectado no ChatGPT, mas sem repositório acessível para receber os arquivos. É necessário criar um repositório autorizado e configurar Pages uma única vez.
 - **Conteúdo:** RSS de fontes identificadas, com curadoria heurística. **Não é um briefing redigido, verificado e contextualizado manualmente por IA.** A seção "Por que importa" é uma frase de contexto automaticamente determinada por palavras-chave; as afirmações jornalísticas estão nos títulos/trechos dos veículos.
 
 ## Ativação no GitHub — procedimento único
 
-1. Abra **Settings → General → Danger Zone → Change repository visibility** e altere para público se quiser publicar via GitHub Pages gratuito. Isso tornará o código e os arquivos públicos; não realize a mudança se deseja manter o repositório privado. Consulte a disponibilidade do Pages para o seu plano.
-2. O conector do ChatGPT já foi instalado e autorizado para o repositório.
+1. Abra [github.com/new](https://github.com/new) e crie um repositório **público** chamado `briefing-executivo-journal` na conta conectada. Escolha **Add a README file** para inicializar a branch `main`. O código não contém dados pessoais, mas a visibilidade pública significa que arquivos e conteúdo publicados ficam acessíveis na internet.
+2. Certifique-se de que o aplicativo ChatGPT tem acesso ao repositório recém-criado. Volte ao ChatGPT e envie a URL do repositório; isso permitirá gravar os arquivos pelo conector do GitHub.
 3. Após o envio do código, vá a **Settings → Pages → Build and deployment → Source: GitHub Actions**.
 4. Em **Actions → Publicar Jornal Digital → Run workflow**, execute manualmente a primeira coleta/publicação, se necessário. Em **Settings → Actions → General → Workflow permissions**, habilite escrita para o `GITHUB_TOKEN` caso a ação de gravar o histórico falhe.
 5. Confira a URL exibida na aba **Settings → Pages** ou no resumo da execução. Em repositório público com Pages ativado, tende a ter o formato `https://<usuario>.github.io/briefing-executivo-journal/`. **Não presuma a URL antes de o GitHub confirmar a publicação.**
@@ -52,3 +52,11 @@ Para a coleta real, `npm run build:edition` (requer acesso de rede do ambiente d
 - Não é um serviço de notícias com licenciamento para republicação integral. Reproduz apenas metadados e pequenos trechos dos feeds, abrindo a matéria na origem.
 - As fontes RSS podem mudar de endereço ou formato. Monitoramento, novas fontes, agenda verificada e resumos escritos por IA são evoluções separadas.
 - O aplicativo não tem autenticação, sincronização entre aparelhos, push ou persistência em servidor própria.
+
+## Tradução das notícias
+
+Títulos e resumos de feeds originalmente em inglês (BBC Sport, CoinDesk, Cointelegraph) são traduzidos automaticamente para **português do Brasil** durante a coleta diária, antes de serem salvos. A URL, veículo, data e texto original são preservados em cada registro. O leitor vê um aviso quando a tradução é parcial ou indisponível.
+
+A tradução utiliza [MyMemory](https://mymemory.translated.net/doc/spec.php) sem chave, limitada pelo provedor a 5.000 caracteres/dia para uso anônimo. Este projeto impõe limite de 4.400 bytes de texto novo por execução e mantém cache em `data/translations.json`. Caso o serviço externo falhe, o sistema não inventa tradução nem altera valores numéricos. Opcionalmente, a variável de ambiente `MYMEMORY_EMAIL` pode identificar contato para uma cota maior.
+
+Tradução automática pode conter erros de contexto; consulte sempre a fonte original para informações financeiras ou decisões importantes.
