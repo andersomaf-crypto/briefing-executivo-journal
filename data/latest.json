@@ -1,1 +1,122 @@
-{"editionDate":null,"generatedAt":null,"count":0,"articles":[],"integrity":"awaiting-first-run","notice":"Aguardando a primeira coleta automática de RSS após publicação."}
+{
+  "editionDate": "2026-11-18",
+  "generatedAt": "2026-11-18T11:49:12.787Z",
+  "windowHours": 36,
+  "count": 10,
+  "totalCandidates": 217,
+  "errors": [],
+  "articles": [
+    {
+      "id": "ruthlesszverevthroughtoatpfinalsknockoutstage",
+      "title": "Ruthless Zverev through to ATP Finals knockout stage",
+      "category": "Tênis",
+      "summary": "World number one Alexander Zverev produces a serving masterclass to defeat Ben Shelton and qualify for the ATP Finals knockout stage with a match to spare.",
+      "why": "Atualiza resultados e momentos decisivos do circuito profissional de tênis.",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/c6x2eveyyxp0o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published": "2026-11-17T22:30:24.000Z",
+      "priority": 3
+    },
+    {
+      "id": "bitcoindropsasnvidiaearningsreportdrivesstockindexfutureshigher",
+      "title": "Bitcoin drops as Nvidia earnings report drives stock index futures higher",
+      "category": "Bitcoin",
+      "summary": "Bitcoin (BTC) is down 1.1% since midnight UTC at around $64,100, failing to keep pace with rising stock index futures after Nvidia beat earnings.",
+      "why": "É relevante para liquidez, volatilidade e gestão da exposição a criptoativos.",
+      "url": "https://www.coindesk.com/markets/2026/11/18/bitcoin-drops-as-nvidia-earnings-report-drives-stock-index-futures-higher",
+      "source": "CoinDesk",
+      "published": "2026-11-18T11:42:52.000Z",
+      "priority": 3
+    },
+    {
+      "id": "bitcoinsteadiesafternvidiasearningsbeatas60kbidsstandout",
+      "title": "Bitcoin steadies after Nvidia’s earnings beat as $60K bids stand out",
+      "category": "Bitcoin",
+      "summary": "Bitcoin halted downside as Nvidia confidence returned, with its stock gaining 3% premarket and South Korea’s tech-heavy KOSPI reclaiming 5,000 points.",
+      "why": "É relevante para liquidez, volatilidade e gestão da exposição a criptoativos.",
+      "url": "https://cointelegraph.com/markets/bitcoin-60k-liquidity-stocks-gain-nvidia-1158b-earnings-beat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-11-18T10:31:20.000Z",
+      "priority": 3
+    },
+    {
+      "id": "nvidiaboardrejectshuangcomebackdespiterecord116bquarter",
+      "title": "Nvidia board rejects Huang comeback despite record $116B quarter",
+      "category": "Bitcoin",
+      "summary": "Nvidia beat Wall Street’s revenue expectations by 5.6% and issued a stronger-than-expected sales forecast, while its board resisted growing calls for Jensen Huang’s reinstatement.",
+      "why": "Pode influenciar custos, oferta de infraestrutura e a competição em IA.",
+      "url": "https://cointelegraph.com/markets/nvidia-board-rejects-huang-comeback-amid-record-116b-quarter?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-11-18T00:16:43.000Z",
+      "priority": 3
+    },
+    {
+      "id": "nvidiasharesriseonearningsbeatraisedoutlookdespiteleadershipuncertainty",
+      "title": "Nvidia shares rise on earnings beat, raised outlook despite leadership uncertainty",
+      "category": "Bitcoin",
+      "summary": "Speaking on the earnings call, Chairman Harvey Jones said the board has no intention of reinstating Jensen Huang as CEO.",
+      "why": "Pode influenciar custos, oferta de infraestrutura e a competição em IA.",
+      "url": "https://www.coindesk.com/markets/2026/11/17/nvidia-tops-estimates-issues-strong-guidance-adds-usd150-billion-to-buyback-authorization",
+      "source": "CoinDesk",
+      "published": "2026-11-17T21:25:50.000Z",
+      "priority": 3
+    },
+    {
+      "id": "nvidiaapresentasupercomputadordemesacom512gbderam",
+      "title": "Nvidia apresenta supercomputador de mesa com 512 GB de RAM",
+      "category": "IA",
+      "summary": "DGX Spark HPC Developer Kit conecta quatro unidades do DGX Spark e é voltado a aplicações de IA e computação científica. Nvidia apresenta supercomputador de mesa com 512 GB de RAM",
+      "why": "Pode influenciar custos, oferta de infraestrutura e a competição em IA.",
+      "url": "https://tecnoblog.net/noticias/nvidia-apresenta-supercomputador-de-mesa-com-512-gb-de-memoria-ram/",
+      "source": "Tecnoblog",
+      "published": "2026-11-17T19:08:58.000Z",
+      "priority": 3
+    },
+    {
+      "id": "custobrasileder35trilhoesporano275dopibestimanovoestudovejaoquepesamais",
+      "title": "Custo Brasil é de R$ 3,5 trilhões por ano, 27,5% do PIB, estima novo estudo; veja o que pesa mais",
+      "category": "Bancos",
+      "summary": "Quanto o chamado Custo Brasil, as condições adversas para empreender no País, significaria em reais? Estudo do Movimento Brasil Competitivo (MBC) , com apoio técnico da Monitor Deloitte, fez essa conta e chegou a uma estimativa de R$ 3,5 trilhões por ano, o…",
+      "why": "Pode alterar expectativas de juros, custo do crédito e preços dos ativos.",
+      "url": "https://www.estadao.com.br/economia/custo-brasil-e-de-r-35-trilhoes-por-ano-275-do-pib-estima-novo-estudo-veja-o-que-pesa-mais/",
+      "source": "Estadão Economia",
+      "published": "2026-11-18T03:01:00.000Z",
+      "priority": 3
+    },
+    {
+      "id": "axiasimparunifiqueiguatemiemaisacoesparaacompanharnestaquartafeira",
+      "title": "Axia, Simpar, Unifique, Iguatemi e mais ações para acompanhar nesta quarta-feira",
+      "category": "Bancos",
+      "summary": "Painéis eletrônicos na B3, em São Paulo &#8211; 10/07/2025 (Foto: REUTERS/Alexandre Meneghini) \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2025/09/Captura-de-tela-2025-09-17-115206-e1770668490299.png?fit=895%2C497&quality=70&strip=all\"…",
+      "why": "É relevante para a atividade econômica e as decisões de investimento.",
+      "url": "https://www.infomoney.com.br/mercados/axia-simpar-unifique-iguatemi-e-mais-acoes-para-acompanhar-nesta-quarta-feira/",
+      "source": "InfoMoney",
+      "published": "2026-11-18T11:26:39.000Z",
+      "priority": 3
+    },
+    {
+      "id": "duriganpreveimpactoinicialdareformatributariasobreinflacao",
+      "title": "Durigan prevê impacto inicial da reforma tributária sobre inflação",
+      "category": "Bancos",
+      "summary": "O ministro da Fazenda, Dario Durigan, afirmou, nesta terça-feira (17), que a implementação da reforma tributária pode gerar pequeno impacto inicial sobre a inflação. A observação foi em resposta à preocupação manifestada por senadores com uma eventual alta…",
+      "why": "Pode alterar expectativas de juros, custo do crédito e preços dos ativos.",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/durigan-preve-impacto-inicial-da-reforma-tributaria-sobre-inflacao",
+      "source": "Agência Brasil",
+      "published": "2026-11-17T18:56:00.000Z",
+      "priority": 4
+    },
+    {
+      "id": "jurosaltosdividacreditoporqueacrisedasempresaspodeseagravarem2027",
+      "title": "Juros altos, dívida, crédito: por que a crise das empresas pode se agravar em 2027",
+      "category": "Bancos",
+      "summary": "As empresas vão enfrentar um cenário bastante complicado no ano que vem: a economia deve crescer pouco, a inflação vai seguir pressionada e os juros continuarão em patamar elevado. A conjuntura delicada que se desenha se soma a uma realidade já bastante…",
+      "why": "Pode alterar expectativas de juros, custo do crédito e preços dos ativos.",
+      "url": "https://www.estadao.com.br/economia/juros-altos-divida-credito-por-que-a-crise-das-empresas-pode-se-agravar-em-2027/",
+      "source": "Estadão Economia",
+      "published": "2026-11-18T08:30:00.000Z",
+      "priority": 3
+    }
+  ],
+  "integrity": "rss-automatizado",
+  "notice": "Títulos e trechos extraídos de RSS de fontes identificadas; importância editorial estimada automaticamente."
+}
