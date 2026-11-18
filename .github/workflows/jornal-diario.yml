@@ -1,0 +1,59 @@
+name: Publicar Jornal Digital
+on:
+  workflow_dispatch:
+  schedule:
+    # 07h30 em Brasilia (UTC-3); a fila do GitHub Actions pode atrasar a execução.
+    - cron: '30 10 * * *'
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'data/**'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: jornal-digital-pages
+  cancel-in-progress: false
+jobs:
+  jornal:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validar código
+        run: npm test
+      - name: Coletar RSS e mercados
+        id: coleta
+        continue-on-error: true
+        run: npm run build:edition
+      - name: Avisar quando não houver notícias novas
+        if: steps.coleta.outcome != 'success'
+        run: echo 'A coleta falhou ou não trouxe notícias verificáveis; o site manterá a data da última edição válida.' >> "$GITHUB_STEP_SUMMARY"
+      - name: Guardar histórico diário no repositório
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/
+          if ! git diff --cached --quiet; then
+            git commit -m 'dados: atualizar edicao do jornal'
+            git push
+          fi
+      - name: Preparar site
+        run: npm run build:pages
+      - name: Configurar Pages
+        uses: actions/configure-pages@v5
+      - name: Enviar artefato
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .site
+      - name: Publicar GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

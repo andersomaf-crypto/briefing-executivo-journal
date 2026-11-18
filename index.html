@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+<meta name="theme-color" content="#103d32"/>
+<meta name="description" content="Seu jornal digital executivo: economia, bancos, inteligência artificial, Bitcoin, geopolítica e tênis."/>
+<meta property="og:title" content="Briefing Executivo — Jornal Digital"/>
+<meta property="og:description" content="Notícias verificáveis em uma leitura de cinco minutos."/>
+<link rel="icon" href="./assets/icon.svg" type="image/svg+xml"/>
+<link rel="apple-touch-icon" href="./assets/icon-180.png"/>
+<link rel="manifest" href="./manifest.webmanifest"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=DM+Serif+Display&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="./styles.css"/>
+<title>Briefing Executivo · Jornal Digital</title>
+</head>
+<body>
+<div id="reading-progress"></div>
+<div class="layout" id="main-app">
+<header class="masthead">
+  <div class="masthead-top"><span class="micro brandline"><span class="brand-dot"></span> INFORMAÇÃO PARA DECIDIR</span><span class="micro" id="clock-label">ATUALIZAÇÃO DIÁRIA</span></div>
+  <div class="masthead-middle"><div><div class="overline">UM OLHAR SOBRE O QUE IMPORTA</div><h1>Briefing <em>Executivo.</em></h1></div><div class="head-tools"><button id="refresh-btn" class="icon-button" title="Atualizar notícias e mercados" aria-label="Atualizar">↻</button><button id="share-btn" class="icon-button" title="Compartilhar" aria-label="Compartilhar">↗</button></div></div>
+  <div class="edition-line"><span id="edition-date">CARREGANDO EDIÇÃO...</span><span id="issue-count">LEITURA EM 3–5 MIN</span></div>
+</header>
+
+<div class="notice notice-neutral" id="status-bar" role="status" aria-live="polite">Buscando manchetes e indicadores nas fontes...</div>
+
+<section class="markets-section" aria-label="Painel de mercado">
+  <div class="section-heading"><h2>Painel de mercado</h2><span class="caption" id="markets-asof">Dados mais recentes</span></div>
+  <div class="markets-grid" id="markets-grid"><div class="metric loading">IBOVESPA <strong>—</strong></div><div class="metric loading">DÓLAR <strong>—</strong></div><div class="metric loading">BITCOIN <strong>—</strong></div><div class="metric loading">SELIC <strong>—</strong></div></div>
+  <p class="footnote">Referências com data e fonte. Sem informação disponível, exibimos “—” em vez de estimar valores.</p>
+</section>
+
+<section class="lead-section" id="leads-section" aria-labelledby="lead-title">
+  <div class="section-heading"><h2 id="lead-title">Em destaque</h2><span class="caption">AS TRÊS PRINCIPAIS</span></div>
+  <div class="lead-grid" id="lead-grid"><div class="skeleton hero-skeleton"></div><div class="skeleton side-skeleton"></div></div>
+</section>
+
+<div class="body-grid">
+<main class="feed-column">
+  <div class="feed-heading"><div><div class="micro muted">AS NOTÍCIAS</div><h2 id="editoria-title">Todas as editorias</h2></div><div class="small-count" id="results-count">—</div></div>
+  <nav class="category-filter" id="category-filter" aria-label="Filtrar editorias"></nav>
+  <div class="search-wrap"><span class="search-glyph">⌕</span><input id="search" type="search" placeholder="Buscar manchete, assunto ou fonte..." aria-label="Buscar notícias" autocomplete="off"/><button id="clear-search" class="clear-search" hidden aria-label="Limpar busca">✕</button></div>
+  <div id="news-list" class="news-list" aria-live="polite"><div class="empty-box">Carregando notícias verificadas...</div></div>
+</main>
+<aside class="sidebar">
+  <section class="aside-panel"><div class="aside-kicker">EM PERSPECTIVA</div><h3>A notícia é o começo.<br/><em>O contexto é a decisão.</em></h3><p>Seleção dos assuntos de maior relevância para economia, bancos, tecnologia, investimentos e tênis. Sem manchetes fabricadas.</p><div class="rule-mini"></div><div class="aside-stat"><strong id="sidebar-count">—</strong><span>manchetes selecionadas<br/>nesta edição</span></div></section>
+  <section class="aside-panel plain"><div class="section-heading side-title"><h3>O que acompanhar</h3><span class="caption">AGENDA</span></div><div id="agenda-list" class="agenda-list"><div class="agenda-empty">Acontecimentos futuros só são publicados após confirmação de data e fonte.</div></div><div class="official-links"><a href="https://www.bcb.gov.br/controleinflacao/calendarioreunioescopom" target="_blank" rel="noopener noreferrer">Agenda do Copom ↗</a><a href="https://www.atptour.com/en/scores/current" target="_blank" rel="noopener noreferrer">ATP Tour ↗</a><a href="https://www.wtatennis.com/tournaments" target="_blank" rel="noopener noreferrer">WTA ↗</a></div></section>
+  <section class="aside-panel plain"><div class="section-heading side-title"><h3>Minha biblioteca</h3><span class="caption">NESTE APARELHO</span></div><div class="library-nav"><button id="show-favorites" class="library-link"><span>☆ Salvos</span><b id="saved-count">0</b></button><button id="show-history" class="library-link"><span>▤ Edições registradas</span><b id="archive-count">0</b></button><button id="export-btn" class="library-link"><span>↓ Exportar edição (.json)</span><b>↗</b></button><button id="back-to-now" class="library-link hidden"><span>← Voltar à edição atual</span></button></div><p class="footnote">Favoritos e histórico ficam no navegador. Não são sincronizados entre dispositivos.</p></section>
+  <section class="aside-panel plain"><h3>Transparência editorial</h3><p>Os títulos e resumos vêm de feeds dos próprios veículos. “Por que importa” é contexto por categoria, não apuração independente. Cada item aponta para a matéria original, com fonte e data.</p><p>Se uma fonte falhar, ela não é substituída por informação inventada.</p><a href="https://agenciabrasil.ebc.com.br/feed/" target="_blank" rel="noopener noreferrer">Sobre as fontes ↗</a></section>
+</aside>
+</div>
+<footer class="footer"><div><strong>BRIEFING EXECUTIVO</strong><span>Jornal digital · Versão 1.1</span></div><p>Leitura informativa. Preços de mercado sujeitos a atraso; não constitui orientação de investimento.</p><div class="footer-bottom"><span>FEITO PARA CELULAR E IPAD</span><span id="footer-stamp">—</span></div></footer>
+</div>
+<div class="bottom-bar" id="bottom-bar"><button data-tab="Todas" class="bottom-active"><span>▤</span>Início</button><button data-tab="Economia"><span>◫</span>Mercados</button><button data-tab="Bancos"><span>♜</span>Bancos</button><button data-tab="IA"><span>✧</span>IA</button><button data-tab="Salvos"><span>☆</span>Salvos</button></div>
+<script src="./app.js" defer></script>
+</body>
+</html>

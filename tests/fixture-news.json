@@ -1,0 +1,107 @@
+{
+  "generatedAt": "2026-11-17T22:00:00-03:00",
+  "articles": [
+    {
+      "id": "demo-1",
+      "title": "Dólar ronda R$ 5,80 enquanto investidores acompanham cenário fiscal",
+      "category": "Economia",
+      "summary": "Mercado monitora a trajetória da dívida brasileira e os próximos passos do pacote fiscal.",
+      "why": "O impacto potencial sobre inflação, juros e investimentos merece acompanhamento.",
+      "url": "https://economia.uol.com.br/cotacoes/noticias/redacao/2026/11/17/dolar-e-bolsa-abrem-hoje-17-de-novembro-de-2026.ghtm",
+      "source": "UOL Economia",
+      "published": "2026-11-17T19:00:00-03:00"
+    },
+    {
+      "id": "demo-2",
+      "title": "EUA impõem restrições à compra de chips avançados de IA pelo Brasil",
+      "category": "IA",
+      "summary": "Medidas norte-americanas incluem novas exigências de licenciamento para acesso a determinados semicondutores.",
+      "why": "Pode alterar custos de infraestrutura e o ritmo de adoção da tecnologia.",
+      "url": "https://tecnoblog.net/noticias/eua-impoem-restricoes-ao-brasil-para-compra-de-chips-de-ia/",
+      "source": "Tecnoblog",
+      "published": "2026-11-17T18:00:00-03:00"
+    },
+    {
+      "id": "demo-3",
+      "title": "Orlando Luz e Rafael Matos se despedem do ATP Finals",
+      "category": "Tênis",
+      "summary": "Dupla brasileira perdeu para os franceses Theo Arribagé e Albano Olivetti em Turim.",
+      "why": "Atualiza os resultados decisivos do tênis profissional.",
+      "url": "https://ge.globo.com/tenis/noticia/2026/11/17/orlando-luz-e-rafael-matos-perdem-para-franceses-e-sao-eliminados-do-atp-finals.ghtml",
+      "source": "ge",
+      "published": "2026-11-17T17:00:00-03:00"
+    },
+    {
+      "id": "demo-4",
+      "title": "Cade deve investigar restrições ao NFC do iPhone e os impactos no Pix",
+      "category": "Bancos",
+      "summary": "Discussão regulatória envolve concorrência em pagamentos por aproximação no iOS.",
+      "why": "Pode influenciar a concorrência e a experiência de pagamentos digitais.",
+      "url": "https://tecnoblog.net/noticias/cade-deve-abrir-processo-contra-apple-por-restricoes-ao-nfc-do-iphone/",
+      "source": "Tecnoblog",
+      "published": "2026-11-17T16:00:00-03:00"
+    },
+    {
+      "id": "demo-5",
+      "title": "Itaipu vira foco de disputa por energia para data centers",
+      "category": "Geopolítica",
+      "summary": "Debate sobre fornecimento de energia entre Brasil e Paraguai ganha relevância para novos investimentos tecnológicos.",
+      "why": "É relevante para segurança energética e investimentos em computação.",
+      "url": "https://c-level.folha.uol.com.br/negocios/2026/11/crise-no-paraguai-pressiona-revisao-de-acordo-de-itaipu-e-briga-para-atrair-data-centers.shtml",
+      "source": "Folha de S.Paulo",
+      "published": "2026-11-17T15:00:00-03:00"
+    },
+    {
+      "id": "demo-6",
+      "title": "Lula comenta relação entre política econômica e mercado financeiro",
+      "category": "Política",
+      "summary": "Presidente abordou responsabilidade fiscal e crescimento durante viagem à Espanha.",
+      "why": "Declarações e medidas podem afetar expectativas econômicas.",
+      "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/11/17/lula-diz-a-sanchez-que-nao-sera-refem-do-mercado-financeiro.ghtm",
+      "source": "UOL Notícias",
+      "published": "2026-11-17T14:00:00-03:00"
+    },
+    {
+      "id": "demo-7",
+      "title": "Aneel discute eventual rompimento do contrato da Enel em São Paulo",
+      "category": "Economia",
+      "summary": "Diretores da agência recomendaram encerramento da concessão, mas houve pedido de vista.",
+      "why": "O impacto potencial sobre inflação, juros e investimentos merece acompanhamento.",
+      "url": "https://www1.folha.uol.com.br/cotidiano/2026/11/maioria-da-aneel-recomenda-romper-contrato-da-enel-em-sp-mas-diretor-geral-trava-decisao-final.shtml",
+      "source": "Folha de S.Paulo",
+      "published": "2026-11-17T13:00:00-03:00"
+    },
+    {
+      "id": "demo-8",
+      "title": "Bitcoin recua em ambiente global de aversão a risco",
+      "category": "Bitcoin",
+      "summary": "Mercados internacionais reagem à perspectiva de juros americanos altos e à correção de ativos tecnológicos.",
+      "why": "A volatilidade reforça a importância de gerir risco e liquidez.",
+      "url": "https://www.reuters.com/world/africa/us-dollar-hits-19-month-peak-fed-hike-bets-aussie-dips-2026-11-17/",
+      "source": "Reuters",
+      "published": "2026-11-17T12:00:00-03:00"
+    },
+    {
+      "id": "demo-9",
+      "title": "Zverev avança antecipadamente às semifinais do ATP Finals",
+      "category": "Tênis",
+      "summary": "Alemão derrotou Ben Shelton na fase de grupos em Turim.",
+      "why": "Atualiza os resultados decisivos do tênis profissional.",
+      "url": "https://ge.globo.com/tenis/noticia/2026/11/17/zverev-bate-shelton-em-dois-sets-e-assegura-vaga-antecipada-na-semifinal-do-atp-finals.ghtml",
+      "source": "ge",
+      "published": "2026-11-17T11:00:00-03:00"
+    },
+    {
+      "id": "demo-10",
+      "title": "Investidores reavaliam perspectivas para empresas de inteligência artificial",
+      "category": "IA",
+      "summary": "Bolsas americanas registram pressão sobre ações de tecnologia em meio a preocupações com rentabilidade.",
+      "why": "Pode alterar custos de infraestrutura e o ritmo de adoção da tecnologia.",
+      "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-11-17/",
+      "source": "Reuters",
+      "published": "2026-11-17T10:00:00-03:00"
+    }
+  ],
+  "demo": true,
+  "windowHours": 36
+}

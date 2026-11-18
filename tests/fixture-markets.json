@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-11-17T22:00:00-03:00",
+  "values": {
+    "ibovespa": {
+      "value": 169817,
+      "change": 0.31,
+      "date": "2026-11-17T18:00:00-03:00",
+      "source": "Exemplo de referência"
+    },
+    "dolar": {
+      "value": 5.783,
+      "change": 0.09,
+      "date": "2026-11-17T18:00:00-03:00",
+      "source": "Exemplo de referência"
+    },
+    "bitcoin": {
+      "value": 64800,
+      "change": null,
+      "date": "2026-11-17T18:00:00-03:00",
+      "source": "Exemplo de referência"
+    },
+    "selic": {
+      "value": 13.75,
+      "change": null,
+      "date": "2026-11-04T12:00:00-03:00",
+      "source": "Exemplo de referência"
+    }
+  },
+  "demo": true
+}
