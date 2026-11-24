@@ -22,3 +22,9 @@ test('Radar não inventa itens e elimina duplicações e notícias velhas',()=>{
  const a={...base,title};const b={...a,url:'https://example.com/materia2'};
  assert.equal(selectWork([a,b,{...base,published:'2020-01-01T00:00:00Z',url:'https://example.com/velha',title:'Banco Central regulamenta reclamações'}]).length,1);
 });
+test('Recupera pauta regulatória da última quinzena, mas não de meses anteriores',()=>{
+ const published=new Date(Date.now()-10*24*3600*1000).toISOString();
+ const item={...base,title:'Banco Central reforça proteção ao consumidor na contratação de crédito',published,url:'https://example.com/bcb'};
+ assert.equal(selectWork([item],336,4).length,1);
+ assert.equal(selectWork([item],48,4).length,0);
+});

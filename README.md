@@ -70,3 +70,5 @@ Tradução automática pode conter erros de contexto; consulte sempre a fonte or
 
 ### Curadoria profissional — atualização complementar
 O radar profissional usa uma janela explícita de até **sete dias** (com data visível), diferente do briefing geral de 36–48 horas. RSS oficial do Banco Central, CVM e cobertura econômica são consultados. Notícias sem relação direta não são usadas para preencher a seção artificialmente. A seleção geral limita notícias repetidas do mesmo veículo e do mesmo evento.
+
+**Janela atual do radar regulatório:** até 14 dias, sempre com data visível, em separado do briefing diário de notícias recentes.
