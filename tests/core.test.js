@@ -24,3 +24,9 @@ test('Não repete quatro manchetes sobre o mesmo evento e mesma fonte',()=>{
  assert.ok(selected.filter(a=>/Nvidia/.test(a.title)).length<=2);
  assert.ok(selected.some(a=>a.title===other.title));
 });
+
+test('Folha entrega link direto à fonte original em vez de redirecionador RSS',()=>{
+ const direct='https://www1.folha.uol.com.br/mercado/2026/11/exemplo.shtml';
+ const redir='https://redir.folha.com.br/redir/online/mercado/rss091/*'+direct;
+ assert.equal(safeUrl(redir),direct);
+});
