@@ -1,6 +1,6 @@
 {
   "editionDate": "2026-11-24",
-  "generatedAt": "2026-11-24T10:51:40.236Z",
+  "generatedAt": "2026-11-24T10:53:22.512Z",
   "windowHours": 36,
   "count": 10,
   "baseCount": 10,
@@ -154,8 +154,8 @@
   "translation": {
     "translated": 4,
     "failures": 1,
-    "cacheHits": 2,
-    "consumed": 1050
+    "cacheHits": 9,
+    "consumed": 292
   },
   "notice": "Notícias extraídas de feeds RSS. Textos internacionais traduzidos automaticamente para português quando disponível; consulte sempre a fonte original."
 }
