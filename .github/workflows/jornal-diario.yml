@@ -61,6 +61,8 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: .site
+      - name: Aguardar propagação do artefato Pages
+        run: sleep 15
       - name: Publicar GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
