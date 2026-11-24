@@ -1,11 +1,11 @@
 {
   "editionDate": "2026-11-24",
-  "generatedAt": "2026-11-24T10:53:22.512Z",
+  "generatedAt": "2026-11-24T10:54:24.412Z",
   "windowHours": 36,
-  "count": 10,
+  "count": 11,
   "baseCount": 10,
-  "workCount": 0,
-  "workExtraCount": 0,
+  "workCount": 1,
+  "workExtraCount": 1,
   "totalCandidates": 326,
   "errors": [],
   "articles": [
@@ -146,6 +146,23 @@
       "source": "InfoMoney",
       "published": "2026-11-24T10:00:00.000Z",
       "priority": 3,
+      "language": "pt-BR",
+      "translationStatus": "original"
+    },
+    {
+      "id": "novasregrasreforcamsegurancaeampliamusodoopenfinanceporclientespessoasjuridicas",
+      "title": "Novas regras reforçam segurança e ampliam uso do Open Finance por clientes pessoas jurídicas",
+      "category": "Bancos",
+      "summary": "O Conselho Monetário Nacional (CMN) e o Banco Central (BC) aprovaram, no último dia 22/10, novas regras para os contratos de parceria no Open Finance e mudanças voltadas a facilitar o compartilhamento de dados por clientes pessoas jurídicas. As alterações…",
+      "why": "Ajuda a acompanhar rentabilidade bancária, crédito e riscos operacionais.",
+      "url": "https://www.bcb.gov.br/detalhenoticia/21313/noticia",
+      "source": "Banco Central",
+      "published": "2026-11-10T13:54:49.000Z",
+      "priority": 5,
+      "workRelated": true,
+      "workScore": 11,
+      "workAngle": "Jornada digital, transparência e proteção do cliente",
+      "radarExtra": true,
       "language": "pt-BR",
       "translationStatus": "original"
     }
