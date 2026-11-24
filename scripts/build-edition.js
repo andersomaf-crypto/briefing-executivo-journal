@@ -12,8 +12,11 @@ function brDate(value){return new Intl.DateTimeFormat('en-CA',{timeZone:'America
 function put(file,obj){const full=path.join(DIR,file);fs.mkdirSync(path.dirname(full),{recursive:true});fs.writeFileSync(full,JSON.stringify(obj,null,2)+'\n','utf8');}
 function get(file,defaultValue){try{return JSON.parse(fs.readFileSync(path.join(DIR,file),'utf8'))}catch{return defaultValue}}
 async function main(){
-  const [newsResult,marketResult]=await Promise.allSettled([getNews(30),getMarkets()]);
   const prev=get('latest.json',null);
+  const previousDayUrls=prev?.editionDate && prev.editionDate!==brDate(new Date())
+    ?(prev.articles||[]).map(a=>a.url):[];
+  const [newsResult,marketResult]=await Promise.allSettled([
+    getNews(14,{excludeUrls:previousDayUrls}),getMarkets()]);
   if(marketResult.status==='fulfilled' && Object.values(marketResult.value.values||{}).some(Boolean)){
     put('markets.json',marketResult.value);
   }else{
@@ -29,7 +32,7 @@ async function main(){
     news.articles=news.articles.filter(a=>!seen.has(a.url)&&!seenIds.has(a.id));
   }
   // Dez manchetes gerais + até quatro adicionais sobre conduta e atendimento financeiro.
-  const general=news.articles.slice(0,10);
+  const general=news.articles.slice(0,14);
   const seenLinks=new Set(general.map(a=>a.url));
   const workExtra=(news.workCandidates||[]).filter(a=>!seenLinks.has(a.url) &&
     !(prev?.editionDate && prev.editionDate!==brDate(news.generatedAt) && prev.articles?.some(p=>p.url===a.url))).slice(0,4);
@@ -47,7 +50,7 @@ async function main(){
   console.log('Tradução PT-BR:',JSON.stringify(translation.stats));
   const date=brDate(news.generatedAt);
   const edition={editionDate:date,generatedAt:news.generatedAt,windowHours:news.windowHours,
-    count:news.articles.length,baseCount:general.length,workCount:news.articles.filter(a=>a.workRelated).length,workExtraCount:workExtra.length,totalCandidates:news.totalCandidates,errors:news.errors,articles:news.articles,
+    count:news.articles.length,coverage:news.coverage||{},editorialVersion:'1.3',baseCount:general.length,workCount:news.articles.filter(a=>a.workRelated).length,workExtraCount:workExtra.length,totalCandidates:news.totalCandidates,errors:news.errors,articles:news.articles,
     integrity:'rss-automatizado',translation:translation.stats,notice:'Notícias extraídas de feeds RSS. Textos internacionais traduzidos automaticamente para português quando disponível; consulte sempre a fonte original.'};
   // Idempotent updates to the same edition, preserving snapshots for earlier dates.
   put('latest.json',edition);

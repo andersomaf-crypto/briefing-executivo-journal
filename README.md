@@ -72,3 +72,12 @@ Tradução automática pode conter erros de contexto; consulte sempre a fonte or
 O radar profissional usa uma janela explícita de até **sete dias** (com data visível), diferente do briefing geral de 36–48 horas. RSS oficial do Banco Central, CVM e cobertura econômica são consultados. Notícias sem relação direta não são usadas para preencher a seção artificialmente. A seleção geral limita notícias repetidas do mesmo veículo e do mesmo evento.
 
 **Janela atual do radar regulatório:** até 14 dias, sempre com data visível, em separado do briefing diário de notícias recentes.
+
+## Curadoria de notícias por relevância — V1.3
+
+- A seleção principal passa a trazer **até 14 notícias recentes**, distribuídas entre economia, bancos, IA, Bitcoin, política, geopolítica e tênis (somente havendo matérias relevantes).
+- O radar bancário usa exclusivamente critérios de interesse público: qualidade comercial, atendimento, reclamações, proteção ao investidor, distribuição, crédito, incentivos e governança da IA. Nenhum dado interno entra na seleção.
+- Fontes adicionadas: Finsiders Brasil (fintechs/bancos), TenisBrasil (circuito e brasileiros), MIT Technology Review Brasil (IA), e notas oficiais do Banco Central.
+- Títulos definem a editoria prioritária; menções genéricas na descrição não transformam uma notícia de PIB em notícia bancária.
+- Peso temático e relevância prática superam frequência, popularidade e cobertura de celebridades. Há despriorização de sensacionalismo, repetição de evento, excesso de uma fonte e notícias antigas.
+- A lista oferece um **máximo**, não uma meta preenchida artificialmente. Links, datas e fontes originais são preservados.
