@@ -8,3 +8,19 @@ test('URL insegura é rejeitada',()=>{assert.equal(safeUrl('javascript:alert(1)'
 test('Matéria sem data não vira notícia verificada',()=>{assert.equal(parseFeed(sample.replace(/<pubDate>.*?<\/pubDate>/,''),feed).length,0)});
 test('Notícias acima de 48 horas saem da edição',()=>{const a=parseFeed(sample,feed)[0];assert.equal(selectItems([{...a,published:new Date(0).toISOString()}],48).length,0)});
 test('HTML é removido',()=>assert.equal(plain('<div>A &amp; B <strong>sim</strong></div>'),'A & B sim'));
+test('Decodifica RSS em ISO-8859-1 sem corromper acentuação',()=>{
+ const {decodeFeedBuffer}=require('../lib/core');
+ const original='<?xml version="1.0" encoding="ISO-8859-1"?><rss><title>Crédito, contratação e reclamações</title></rss>';
+ const source=Buffer.from(original,'latin1');
+ const out=decodeFeedBuffer(source,'application/xml');
+ assert.equal(out,original);
+});
+test('Não repete quatro manchetes sobre o mesmo evento e mesma fonte',()=>{
+ const {selectItems}=require('../lib/core');
+ const now=new Date().toISOString();
+ const x=Array.from({length:5},(_,i)=>({title:'Nvidia anuncia movimentação '+i,category:'IA',priority:4,source:i<3?'Fonte A':'Fonte B',published:now,url:'https://example.com/'+i}));
+ const other={title:'CVM debate qualidade na distribuição',category:'Bancos',priority:3,source:'CVM',published:now,url:'https://example.com/cvm'};
+ const selected=selectItems([...x,other],48,10);
+ assert.equal(selected.filter(a=>/Nvidia/.test(a.title)).length,2);
+ assert.ok(selected.some(a=>a.title===other.title));
+});

@@ -67,3 +67,6 @@ Tradução automática pode conter erros de contexto; consulte sempre a fonte or
 - Radar do Trabalho: até quatro matérias adicionais do dia, somente quando critérios estritos apontarem ligação com qualidade comercial, reclamações, distribuição de investimentos, atendimento, regulação e IA financeira.
 - Fontes adicionais: Folha Mercado (RSS) e feeds regulatórios públicos da CVM. Falhas nas fontes são registradas e não geram notícias inventadas.
 - O repositório e o site são públicos. O radar utiliza apenas temas genéricos de mercado; não publica métricas, nomes de equipes nem informações internas de trabalho.
+
+### Curadoria profissional — atualização complementar
+O radar profissional usa uma janela explícita de até **sete dias** (com data visível), diferente do briefing geral de 36–48 horas. RSS oficial do Banco Central, CVM e cobertura econômica são consultados. Notícias sem relação direta não são usadas para preencher a seção artificialmente. A seleção geral limita notícias repetidas do mesmo veículo e do mesmo evento.
