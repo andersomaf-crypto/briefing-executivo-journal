@@ -81,3 +81,10 @@ O radar profissional usa uma janela explícita de até **sete dias** (com data v
 - Títulos definem a editoria prioritária; menções genéricas na descrição não transformam uma notícia de PIB em notícia bancária.
 - Peso temático e relevância prática superam frequência, popularidade e cobertura de celebridades. Há despriorização de sensacionalismo, repetição de evento, excesso de uma fonte e notícias antigas.
 - A lista oferece um **máximo**, não uma meta preenchida artificialmente. Links, datas e fontes originais são preservados.
+
+## Preferências do leitor (v1.4)
+- Cada notícia no feed e no Radar do Trabalho tem **Relevante** e **Não relevante**, com estado visível e opção de desfazer ao tocar novamente.
+- Os votos são guardados **apenas no localStorage deste navegador** (até 250 itens; influência decai em 120 dias). Não há envio ao GitHub, sincronização entre iPhone/iPad ou monitoramento externo.
+- A leitura editorial continua sendo determinada por fontes, datas e importância. As preferências reordenam notícias semelhantes dentro das editorias e o Radar profissional, de forma limitada — **não filtram, apagam ou ocultam** matérias nem modificam título, resumo ou fonte.
+- A opção **Limpar avaliações** fica em *Minha biblioteca* e não apaga favoritos ou histórico.
+- A rotina diária das 7h30 continua independente das avaliações locais.

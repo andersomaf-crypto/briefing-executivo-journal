@@ -1,5 +1,5 @@
-const CACHE='briefing-journal-shell-v3-linen-navy-amber';
-const SHELL=['./','./index.html','./app.js','./styles.css','./manifest.webmanifest','./assets/icon.svg','./assets/icon-180.png','./assets/icon-192.png','./assets/icon-512.png'];
+const CACHE='briefing-journal-shell-v4-feedback';
+const SHELL=['./','./index.html','./app.js','./client-feedback.js','./styles.css','./manifest.webmanifest','./assets/icon.svg','./assets/icon-180.png','./assets/icon-192.png','./assets/icon-512.png'];
 self.addEventListener('install',event=>{
  event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(SHELL)));
  self.skipWaiting();

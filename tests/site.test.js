@@ -67,3 +67,17 @@ test('Radar do trabalho aparece na interface e preserva filtros', () => {
   assert.match(html, /data-tab="Trabalho"/);
   assert.match(script, /state\.category==='Trabalho'/);
 });
+
+test('Avaliação de relevância com acessibilidade, armazenamento e limpeza',()=>{
+ const html=file('index.html'),script=file('app.js'),css=file('styles.css');
+ assert.match(html,/client-feedback\.js/);
+ assert.match(html,/id="reset-feedback"/);
+ assert.match(script,/Feedback\.record/);
+ assert.match(script,/write\('feedback',state\.feedback\)/);
+ assert.match(script,/data-feedback/);
+ assert.match(css,/\.feedback-button\{min-height:44px/);
+});
+test('Client-feedback é publicado e precacheado no aplicativo instalado',()=>{
+ assert.match(file('scripts/build-pages.js'),/client-feedback\.js/);
+ assert.match(file('service-worker.js'),/client-feedback\.js/);
+});

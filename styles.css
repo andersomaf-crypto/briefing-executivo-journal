@@ -84,3 +84,17 @@ button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid var(-
  .bottom-bar button{font-size:10px;color:#61708A}.bottom-bar button.bottom-active{color:#A66700}
 }
 @media(min-width:621px){.masthead{margin-top:12px}}
+/* Preferências de relevância — interface acessível em iPhone/iPad, v1.4 */
+.feedback-hint{font-size:13px;line-height:1.5;color:#56627B;padding:0 1px;margin:-11px 0 15px}
+.feedback-controls{display:flex;flex-wrap:wrap;align-items:center;gap:7px;padding:0 18px 15px;background:transparent}
+.feedback-question{width:100%;font-size:12px;line-height:1.4;color:#58647B;font-weight:600}
+.feedback-button{min-height:44px;min-width:118px;flex:1;border:1px solid #C4C9D3;border-radius:11px;background:#F5F1E9;color:#273753;padding:9px 10px;font-size:13px;line-height:1.2;font-weight:700;text-align:center;transition:background .15s ease,border-color .15s ease}
+.feedback-button:hover{background:#EAE2D6}
+.feedback-button:focus-visible{outline:3px solid #FFB020;outline-offset:2px}
+.feedback-button.feedback-positive{background:#FFE5B0;border-color:#C47B00;color:#15233D}
+.feedback-button.feedback-negative{background:#E5E9F0;border-color:#637089;color:#15233D}
+.radar-card .feedback-controls{padding:3px 0 0;margin-top:2px}
+.radar-card .feedback-button{font-size:12px;min-width:110px}
+.story:has(.feedback-positive){border-color:#E7B76B}
+@media(max-width:620px){.story .feedback-controls{padding:0 17px 16px}.feedback-hint{font-size:13px}.feedback-button{min-width:116px;padding:10px 9px}.radar-card .feedback-button{font-size:13px}}
+@media(prefers-reduced-motion:reduce){.feedback-button{transition:none}}
