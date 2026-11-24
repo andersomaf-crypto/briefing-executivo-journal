@@ -52,3 +52,18 @@ test('Selic nunca exibe uma observação com data futura', () => {
   assert.match(result.date,/^2026-11-04/);
   assert.throws(()=>validSelic([{data:'09/12/2026',valor:'99,99'}],'2026-11-18'));
 });
+
+test('Tema editorial usa Linen, Navy e Amber e melhora a tipografia', () => {
+  const css=file('styles.css');
+  assert.match(css, /--paper:#F3EFE8/);
+  assert.match(css, /--ink:#15233D/);
+  assert.match(css, /--gold:#FFB020/);
+  assert.match(css, /\.story-title\{font-size:19px;[^}]*font-weight:800/);
+  assert.match(css, /\.story-summary\{font-size:16px;font-weight:400/);
+});
+test('Radar do trabalho aparece na interface e preserva filtros', () => {
+  const html=file('index.html'),script=file('app.js');
+  assert.match(html, /id="work-radar-grid"/);
+  assert.match(html, /data-tab="Trabalho"/);
+  assert.match(script, /state\.category==='Trabalho'/);
+});

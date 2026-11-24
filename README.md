@@ -1,12 +1,12 @@
 # Briefing Executivo — Jornal Digital (v1.1)
 
-Jornal digital brasileiro, pensado para iPhone e iPad: quatro indicadores de mercado, destaques editoriais, editorias agrupadas, busca, favoritos, histórico de edições e links diretos às notícias originais. Estilo branco e verde, com visual de jornal e navegação em cartões.
+Jornal digital brasileiro, pensado para iPhone e iPad: quatro indicadores de mercado, destaques editoriais, editorias agrupadas, busca, favoritos, histórico de edições e links diretos às notícias originais. Estilo editorial Linen, Navy e Amber, com visual de jornal e navegação em cartões.
 
 ## Situação de implantação
 
 - **Desenvolvido e validado localmente:** layout responsivo, filtros, busca, artigos expansíveis, favoritos, consulta de fonte, exportação JSON, PWA e indicadores com origem/data.
 - **Integração contínua preparada:** arquivo `.github/workflows/jornal-diario.yml` consulta feeds RSS todos os dias às 07h30 (horário de Brasília, sujeito aos atrasos de fila do GitHub Actions), arquiva as edições e publica via GitHub Pages.
-- **Ainda não publicado:** GitHub conectado no ChatGPT, mas sem repositório acessível para receber os arquivos. É necessário criar um repositório autorizado e configurar Pages uma única vez.
+- **Publicado:** https://andersomaf-crypto.github.io/briefing-executivo-journal/.
 - **Conteúdo:** RSS de fontes identificadas, com curadoria heurística. **Não é um briefing redigido, verificado e contextualizado manualmente por IA.** A seção "Por que importa" é uma frase de contexto automaticamente determinada por palavras-chave; as afirmações jornalísticas estão nos títulos/trechos dos veículos.
 
 ## Ativação no GitHub — procedimento único
@@ -60,3 +60,10 @@ Títulos e resumos de feeds originalmente em inglês (BBC Sport, CoinDesk, Coint
 A tradução utiliza [MyMemory](https://mymemory.translated.net/doc/spec.php) sem chave, limitada pelo provedor a 5.000 caracteres/dia para uso anônimo. Este projeto impõe limite de 4.400 bytes de texto novo por execução e mantém cache em `data/translations.json`. Caso o serviço externo falhe, o sistema não inventa tradução nem altera valores numéricos. Opcionalmente, a variável de ambiente `MYMEMORY_EMAIL` pode identificar contato para uma cota maior.
 
 Tradução automática pode conter erros de contexto; consulte sempre a fonte original para informações financeiras ou decisões importantes.
+## Atualização visual e Radar do Trabalho — v1.2
+
+- Paleta aprovada: 60% Linen (#F3EFE8), 30% Navy (#15233D), 10% Amber (#FFB020), mantendo verde/vermelho para sinalização de variações.
+- Manchetes de notícias em negrito, 19px no celular; resumos normais, 16px; explicações "Por que importa" em 15px.
+- Radar do Trabalho: até quatro matérias adicionais do dia, somente quando critérios estritos apontarem ligação com qualidade comercial, reclamações, distribuição de investimentos, atendimento, regulação e IA financeira.
+- Fontes adicionais: Folha Mercado (RSS) e feeds regulatórios públicos da CVM. Falhas nas fontes são registradas e não geram notícias inventadas.
+- O repositório e o site são públicos. O radar utiliza apenas temas genéricos de mercado; não publica métricas, nomes de equipes nem informações internas de trabalho.
