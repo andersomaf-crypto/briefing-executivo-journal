@@ -1,14 +1,27 @@
 {
   "editionDate": "2026-11-24",
-  "generatedAt": "2026-11-24T10:54:24.412Z",
+  "generatedAt": "2026-11-24T10:57:25.591Z",
   "windowHours": 36,
   "count": 11,
   "baseCount": 10,
   "workCount": 1,
   "workExtraCount": 1,
-  "totalCandidates": 326,
+  "totalCandidates": 441,
   "errors": [],
   "articles": [
+    {
+      "id": "aintervencaodetrumpquelevoujensenhuangdevoltaaocomandodanvidia",
+      "title": "A intervenção de Trump que levou Jensen Huang de volta ao comando da Nvidia",
+      "category": "Bancos",
+      "summary": "Jensen Huang volta à presidência da Nvidia Três acontecimentos surpreendentes marcaram o último dia em torno do retorno de Jensen Huang ao cargo de CEO da Nvidia, depois que ele admitiu ter tido um caso amoroso com uma mulher apontada como uma espiã chinesa.…",
+      "why": "Pode influenciar custos, oferta de infraestrutura e a competição em IA.",
+      "url": "https://g1.globo.com/mundo/noticia/2026/11/24/a-intervencao-de-trump-que-levou-jensen-huang-de-volta-ao-comando-da-nvidia.ghtml",
+      "source": "g1 Economia",
+      "published": "2026-11-24T10:39:36.000Z",
+      "priority": 3,
+      "language": "pt-BR",
+      "translationStatus": "original"
+    },
     {
       "id": "fazendareduzprevisaodopibeelevainflacaopara2027",
       "title": "Fazenda reduz previsão do PIB e eleva inflação para 2027",
@@ -36,15 +49,28 @@
       "translationStatus": "original"
     },
     {
-      "id": "euaimpoemrestricoesamegaspeedempresaligadaaescandalodanvidia",
-      "title": "EUA impõem restrições à Megaspeed, empresa ligada a escândalo da Nvidia",
+      "id": "procuradordacaliforniaprocessaopenaiporriscoasegurancapublica",
+      "title": "Procurador da Califórnia processa OpenAI por risco à segurança pública",
       "category": "Economia",
-      "summary": "Os Estados Unidos acrescentaram nesta segunda-feira (23) a Megaspeed à sua lista de restrições comerciais. A empresa, sediada em Singapura, está estreitamente ligada a uma investigação de espionagem envolvendo a Nvidia .",
-      "why": "Pode influenciar custos, oferta de infraestrutura e a competição em IA.",
-      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/eua-impoe-restricoes-a-megaspeed-empresa-ligada-a-escandalo-da-nvidia.shtml",
+      "summary": "O procurador-geral da Califórnia, Rob Bonta, afirmou no domingo (22) que havia entrado com uma ação judicial contra a OpenAI no início da semana \"por não manter seus modelos seguros e colocar a segurança pública em risco\".",
+      "why": "É relevante para a atividade econômica e as decisões de investimento.",
+      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/procurador-da-california-processa-openai-por-risco-a-seguranca-publica.shtml",
       "source": "Folha Mercado",
-      "published": "2026-11-23T23:25:00.000Z",
+      "published": "2026-11-23T12:36:00.000Z",
       "priority": 4,
+      "language": "pt-BR",
+      "translationStatus": "original"
+    },
+    {
+      "id": "comidamaiscarafazfazendaelevarinflacaode2026ecortarprevisaodopib",
+      "title": "Comida mais cara faz Fazenda elevar inflação de 2026 e cortar previsão do PIB",
+      "category": "Economia",
+      "summary": "IPCA deve chegar a 5,3% neste ano, acima do teto da meta, enquanto INPC sobe a 5,4% e pesa mais no bolso de famílias de menor renda; veja dados",
+      "why": "Pode alterar expectativas de juros, custo do crédito e preços dos ativos.",
+      "url": "https://economiareal.uol.com.br/noticia/economia/comida-mais-cara-faz-fazenda-elevar-inflacao-de-2026-e-cortar-previsao-do-pib-2267?utm_source=Feed%20UOL&utm_medium=site&xid=2020",
+      "source": "UOL Economia",
+      "published": "2026-11-23T23:20:00.000Z",
+      "priority": 3,
       "language": "pt-BR",
       "translationStatus": "original"
     },
@@ -79,6 +105,19 @@
       "translationStatus": "automatica"
     },
     {
+      "id": "cvmsuspenderegistrodobrbha1anosemdivulgarbalancobancoficaimpedidodenegociaracoes",
+      "title": "CVM suspende registro do BRB, há 1 ano sem divulgar balanço; banco fica impedido de negociar ações",
+      "category": "Bancos",
+      "summary": "Sede do Banco de Brasília (BRB) TV Globo A Comissão de Valores Mobiliários (CVM) suspendeu nesta segunda-feira (23) o registro do Banco de Brasília (BRB) como companhia aberta. Com isso, e até regularizar o registro, o BRB fica impedido de negociar ações em…",
+      "why": "Ajuda a acompanhar rentabilidade bancária, crédito e riscos operacionais.",
+      "url": "https://g1.globo.com/df/distrito-federal/noticia/2026/11/23/cvm-suspende-registro-do-brb-por-relatorios-pendentes-banco-fica-impedido-de-negociar-acoes.ghtml",
+      "source": "g1 Economia",
+      "published": "2026-11-23T16:19:53.000Z",
+      "priority": 3,
+      "language": "pt-BR",
+      "translationStatus": "original"
+    },
+    {
       "id": "84daysfourtitlesonehistoricfeatalcarazsremarkablereturn",
       "title": "84 dias, quatro títulos, um feito histórico: o retorno notável de Alcaraz",
       "category": "Tênis",
@@ -109,47 +148,6 @@
       "translationStatus": "automatica"
     },
     {
-      "id": "erictrumpbackedamericanbitcoinsecures150millionloanagainstitsbitcoin",
-      "title": "A American Bitcoin, apoiada por Eric Trump, obtém um empréstimo de US$ 150 milhões com garantia em bitcoins",
-      "category": "Bitcoin",
-      "summary": "A mineradora de criptomoedas listada na Nasdaq pode contrair empréstimos sem vender suas reservas ou emitir novas ações, mas a queda nos preços do BTC pode forçá-la a oferecer mais garantias.",
-      "why": "É relevante para liquidez, volatilidade e gestão da exposição a criptoativos.",
-      "url": "https://www.coindesk.com/business/2026/11/23/eric-trump-backed-american-bitcoin-secures-usd150-million-loan-against-its-bitcoin",
-      "source": "CoinDesk",
-      "published": "2026-11-23T15:02:32.000Z",
-      "priority": 3,
-      "originalTitle": "Eric Trump-backed American Bitcoin secures $150 million loan against its bitcoin",
-      "originalSummary": "The Nasdaq-listed crypto miner can borrow without selling its reserves or issuing new shares, but falling BTC prices could force it to pledge more collateral.",
-      "language": "pt-BR",
-      "translationStatus": "automatica"
-    },
-    {
-      "id": "aprendervalorampliaconteudoepassaaoferecereducacaoprevidenciarianasescolas",
-      "title": "Aprender Valor amplia conteúdo e passa a oferecer educação previdenciária nas escolas",
-      "category": "Bancos",
-      "summary": "O Aprender Valor, programa do Banco Central (BC) voltado à educação financeira nas escolas, acaba de ganhar uma nova frente&#58; a educação previdenciária. Três novos projetos escolares, desenvolvidos em parceria com o Ministério da Previdência Social (MPS),…",
-      "why": "Pode alterar expectativas de juros, custo do crédito e preços dos ativos.",
-      "url": "https://www.bcb.gov.br/detalhenoticia/21327/noticia",
-      "source": "Banco Central",
-      "published": "2026-11-23T13:59:14.000Z",
-      "priority": 5,
-      "language": "pt-BR",
-      "translationStatus": "original"
-    },
-    {
-      "id": "bctemus363bilhoesemreservasporqueissonaobastaparasegurarodolar",
-      "title": "BC tem US$ 363 bilhões em reservas: por que isso não basta para segurar o dólar?",
-      "category": "Bancos",
-      "summary": "Imagem ilustrativa sobre as reservas cambiais brasileiras e os desafios para conter a valorização do dólar. A composição reúne elementos associados à segurança financeira, ao Banco Central e às oscilações do mercado de câmbio. \" data-image-caption=\" Com US$…",
-      "why": "Ajuda a acompanhar rentabilidade bancária, crédito e riscos operacionais.",
-      "url": "https://www.infomoney.com.br/economia/reservas-internacionais-bc-segurar-dolar/",
-      "source": "InfoMoney",
-      "published": "2026-11-24T10:00:00.000Z",
-      "priority": 3,
-      "language": "pt-BR",
-      "translationStatus": "original"
-    },
-    {
       "id": "novasregrasreforcamsegurancaeampliamusodoopenfinanceporclientespessoasjuridicas",
       "title": "Novas regras reforçam segurança e ampliam uso do Open Finance por clientes pessoas jurídicas",
       "category": "Bancos",
@@ -169,9 +167,9 @@
   ],
   "integrity": "rss-automatizado",
   "translation": {
-    "translated": 4,
+    "translated": 3,
     "failures": 1,
-    "cacheHits": 9,
+    "cacheHits": 7,
     "consumed": 292
   },
   "notice": "Notícias extraídas de feeds RSS. Textos internacionais traduzidos automaticamente para português quando disponível; consulte sempre a fonte original."
