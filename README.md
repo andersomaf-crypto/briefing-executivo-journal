@@ -88,3 +88,6 @@ O radar profissional usa uma janela explícita de até **sete dias** (com data v
 - A leitura editorial continua sendo determinada por fontes, datas e importância. As preferências reordenam notícias semelhantes dentro das editorias e o Radar profissional, de forma limitada — **não filtram, apagam ou ocultam** matérias nem modificam título, resumo ou fonte.
 - A opção **Limpar avaliações** fica em *Minha biblioteca* e não apaga favoritos ou histórico.
 - A rotina diária das 7h30 continua independente das avaliações locais.
+
+### Atualização sob demanda
+A edição pode ser atualizada pelo workflow Publicar Jornal Digital usando Run workflow na branch main. A coleta preserva a última edição válida se não encontrar notícias recentes verificáveis.
