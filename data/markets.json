@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T10:43:39.281Z",
+  "generatedAt": "2026-11-25T11:24:05.608Z",
   "values": {
     "ibovespa": {
       "value": 164090,
@@ -14,9 +14,9 @@
       "source": "Yahoo Finance"
     },
     "bitcoin": {
-      "value": 58916,
-      "change": -1.245049725466694,
-      "date": "2026-11-25T10:43:20.000Z",
+      "value": 58741,
+      "change": -1.438355858768058,
+      "date": "2026-11-25T11:23:25.000Z",
       "source": "CoinGecko"
     },
     "selic": null

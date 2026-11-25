@@ -1,6 +1,6 @@
 {
   "editionDate": "2026-11-25",
-  "generatedAt": "2026-11-25T10:43:40.365Z",
+  "generatedAt": "2026-11-25T11:24:07.131Z",
   "windowHours": 36,
   "count": 14,
   "coverage": {
@@ -29,7 +29,7 @@
       "source": "Folha Mercado",
       "published": "2026-11-24T14:26:00.000Z",
       "priority": 4,
-      "editorialScore": 14.945,
+      "editorialScore": 14.87,
       "language": "pt-BR",
       "translationStatus": "original"
     },
@@ -43,7 +43,7 @@
       "source": "Estadão Economia",
       "published": "2026-11-25T02:20:36.000Z",
       "priority": 3,
-      "editorialScore": 14.668,
+      "editorialScore": 14.593,
       "language": "pt-BR",
       "translationStatus": "original"
     },
@@ -57,7 +57,7 @@
       "source": "Folha Mercado",
       "published": "2026-11-25T07:00:00.000Z",
       "priority": 4,
-      "editorialScore": 13.786,
+      "editorialScore": 13.711,
       "language": "pt-BR",
       "translationStatus": "original"
     },
@@ -71,7 +71,7 @@
       "source": "Finsiders Brasil",
       "published": "2026-11-24T15:19:58.000Z",
       "priority": 5,
-      "editorialScore": 13.645,
+      "editorialScore": 13.57,
       "language": "pt-BR",
       "translationStatus": "original"
     },
@@ -85,7 +85,7 @@
       "source": "InfoMoney",
       "published": "2026-11-25T10:06:26.000Z",
       "priority": 3,
-      "editorialScore": 16.731,
+      "editorialScore": 16.656,
       "language": "pt-BR",
       "translationStatus": "original"
     },
@@ -99,25 +99,25 @@
       "source": "Folha Mercado",
       "published": "2026-11-25T09:00:00.000Z",
       "priority": 4,
-      "editorialScore": 15.208,
+      "editorialScore": 15.133,
       "language": "pt-BR",
       "translationStatus": "original"
     },
     {
-      "id": "liveupdatesbitcoinslipsbackunder60000ashypeleadsaltcoinslower",
-      "title": "Live updates: Bitcoin slips back under $60,000 as HYPE leads altcoins lower",
+      "id": "bitcoinetfsnear5binrecordmonthlyoutflowsamidaistockrout",
+      "title": "ETFs de Bitcoin se aproximam de US$ 5 bilhões em saídas mensais recordes em meio à queda das ações de IA",
       "category": "Bitcoin",
-      "summary": "O HYPE caiu 8% e o SOL 5%, e um analista afirmou que uma recuperação precisará primeiro de vendas de ações para aliviar a situação, com os dados de inflação dos Estados Unidos previstos para antes do Dia de Ação de Graças.",
+      "summary": "Os ETFs de Bitcoin à vista dos EUA registraram US$ 4,94 bilhões em saídas líquidas em novembro, superando o recorde mensal anterior de US$ 4,51 bilhões estabelecido em junho.",
       "why": "É relevante para liquidez, volatilidade e gestão da exposição a criptoativos.",
-      "url": "https://www.coindesk.com/business/2026/11/25/live-updates-bitcoin-slips-back-under-usd60-000-as-hype-leads-altcoins-lower",
-      "source": "CoinDesk",
-      "published": "2026-11-25T08:35:47.000Z",
+      "url": "https://cointelegraph.com/markets/bitcoin-etfs-near-record-5-billion-monthly-outflows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-11-25T11:12:26.000Z",
       "priority": 3,
-      "editorialScore": 11.563,
-      "originalTitle": "Live updates: Bitcoin slips back under $60,000 as HYPE leads altcoins lower",
-      "originalSummary": "HYPE fell 8% and SOL 5%, and one analyst said a recovery will need selling in stocks to ease first, with U.S. inflation data due before Thanksgiving.",
+      "editorialScore": 11.778,
+      "originalTitle": "Bitcoin ETFs near $5B in record monthly outflows amid AI stock rout",
+      "originalSummary": "US spot Bitcoin ETFs have recorded $4.94 billion in November net outflows, exceeding the previous monthly record of $4.51 billion set in June.",
       "language": "pt-BR",
-      "translationStatus": "parcial"
+      "translationStatus": "automatica"
     },
     {
       "id": "chinacondenafuncionariopublicoamorteporespionagemevazamentodesegredosdeestado",
@@ -129,7 +129,7 @@
       "source": "Estadão Internacional",
       "published": "2026-11-24T15:34:33.000Z",
       "priority": 2,
-      "editorialScore": 10.072,
+      "editorialScore": 9.997,
       "language": "pt-BR",
       "translationStatus": "original"
     },
@@ -143,7 +143,7 @@
       "source": "Agência Brasil",
       "published": "2026-11-24T20:25:00.000Z",
       "priority": 3,
-      "editorialScore": 12.21,
+      "editorialScore": 12.135,
       "language": "pt-BR",
       "translationStatus": "original"
     },
@@ -157,7 +157,7 @@
       "source": "BBC Sport",
       "published": "2026-11-24T18:00:06.000Z",
       "priority": 3,
-      "editorialScore": 8.942,
+      "editorialScore": 8.867,
       "originalTitle": "'I miss being on court' - Sinner has 'minor surgery' on knee",
       "originalSummary": "World number two Jannik Sinner says he has had \"minor surgery\" on his knee, just seven weeks before January's Australian Open begins.",
       "language": "pt-BR",
@@ -173,7 +173,7 @@
       "source": "Finsiders Brasil",
       "published": "2026-11-24T21:17:04.000Z",
       "priority": 5,
-      "editorialScore": 14.306,
+      "editorialScore": 14.231,
       "language": "pt-BR",
       "translationStatus": "original"
     },
@@ -187,7 +187,21 @@
       "source": "Agência Brasil",
       "published": "2026-11-25T10:02:00.000Z",
       "priority": 4,
-      "editorialScore": 14.123,
+      "editorialScore": 14.048,
+      "language": "pt-BR",
+      "translationStatus": "original"
+    },
+    {
+      "id": "alemdaiainteligenciaculturaleatendenciadesejavelpara2027",
+      "title": "Além da IA: inteligência cultural é a tendência desejável para 2027",
+      "category": "IA",
+      "summary": "Só se fala em inteligência artificial no mundo dos negócios e na política. Com investimentos bilionários e ganhos de produtividade, a tecnologia é, sem dúvida, uma das grandes tendências de 2027.",
+      "why": "Ajuda a avaliar aplicação prática, riscos e escala das tecnologias de IA.",
+      "url": "https://economia.uol.com.br/colunas/jose-saad-neto/2026/11/25/alem-da-ia-inteligencia-cultural-e-a-tendencia-desejavel-para-2027.htm",
+      "source": "UOL Economia",
+      "published": "2026-11-25T08:31:00.000Z",
+      "priority": 3,
+      "editorialScore": 13.479,
       "language": "pt-BR",
       "translationStatus": "original"
     },
@@ -201,31 +215,17 @@
       "source": "Banco Central",
       "published": "2026-11-24T14:06:14.000Z",
       "priority": 5,
-      "editorialScore": 13.508,
-      "language": "pt-BR",
-      "translationStatus": "original"
-    },
-    {
-      "id": "alemdaiainteligenciaculturaleatendenciadesejavelpara2027",
-      "title": "Além da IA: inteligência cultural é a tendência desejável para 2027",
-      "category": "IA",
-      "summary": "Só se fala em inteligência artificial no mundo dos negócios e na política. Com investimentos bilionários e ganhos de produtividade, a tecnologia é, sem dúvida, uma das grandes tendências de 2027.",
-      "why": "Ajuda a avaliar aplicação prática, riscos e escala das tecnologias de IA.",
-      "url": "https://economia.uol.com.br/colunas/jose-saad-neto/2026/11/25/alem-da-ia-inteligencia-cultural-e-a-tendencia-desejavel-para-2027.htm",
-      "source": "UOL Economia",
-      "published": "2026-11-25T07:31:00.000Z",
-      "priority": 3,
-      "editorialScore": 13.443,
+      "editorialScore": 13.434,
       "language": "pt-BR",
       "translationStatus": "original"
     }
   ],
   "integrity": "rss-automatizado",
   "translation": {
-    "translated": 1,
-    "failures": 1,
-    "cacheHits": 0,
-    "consumed": 492
+    "translated": 2,
+    "failures": 0,
+    "cacheHits": 2,
+    "consumed": 209
   },
   "notice": "Notícias extraídas de feeds RSS. Textos internacionais traduzidos automaticamente para português quando disponível; consulte sempre a fonte original."
 }
