@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-11-27T11:17:49.145Z",
+  "generatedAt": "2026-11-28T11:14:44.906Z",
   "values": {
     "ibovespa": {
-      "value": 176800,
-      "change": 6.068332483426823,
-      "date": "2026-11-26T13:00:00.000Z",
+      "value": 176573,
+      "change": -0.12839366515837106,
+      "date": "2026-11-27T13:00:00.000Z",
       "source": "Yahoo Finance"
     },
     "dolar": {
-      "value": 5.652500152587891,
-      "change": -2.9096985775478568,
+      "value": 5.650300025939941,
+      "change": -2.947489104509481,
       "date": "2026-11-27T00:00:00.000Z",
       "source": "Yahoo Finance"
     },
     "bitcoin": {
-      "value": 61590,
-      "change": 1.7030046269823116,
-      "date": "2026-11-27T11:17:35.000Z",
+      "value": 59198,
+      "change": -3.8461767982362076,
+      "date": "2026-11-28T11:14:03.000Z",
       "source": "CoinGecko"
     },
     "selic": null
